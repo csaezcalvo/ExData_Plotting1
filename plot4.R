@@ -17,7 +17,7 @@ with(consumption, plot(datetime, type = "l", Voltage, ylab = "Global Active Powe
 with(consumption, plot(datetime, type = "l", Sub_metering_1 ,xlab = "", ylab = "Energy sub metering"))
 with(consumption, points(datetime, type = "l", Sub_metering_2, col="red"))
 with(consumption, points(datetime, type = "l", Sub_metering_3, col="blue"))
-legend("topright", lty=1, col=c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),cex = 0.7, bty="n", y.intersp=0.3, inset=c(-0.3,-0.1))
+legend("topright", lty=1, col=c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),cex = 0.7, bty="n", y.intersp=0.3, inset=c(-0.25,-0.1))
 
 #Plot 4
 with(consumption, plot(datetime, type = "l", Global_reactive_power))
